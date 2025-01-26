@@ -1,0 +1,41 @@
+.divs{
+    display: none;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    width: 760px;
+    max-height: 557px;
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+#prev, #next{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+#prev{
+    left: 30px;
+}
+
+#next{
+    right: 30px;
+}
